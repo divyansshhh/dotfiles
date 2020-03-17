@@ -277,10 +277,16 @@ exec i3-config-wizard
 
 exec_always xinput set-prop 12 280 1
 bindsym Mod4+Shift+X exec i3lock-fancy -p
+
+#enabling tap on touchpad (couldn't find a better way)
 exec_always xinput set-prop 17 298 1
 exec_always xinput set-prop 16 298 1
+
+
 exec_always dunst
-exec_always nm-applet
+#exec_always nm-applet
+
+#Setting wallpaper
 exec_always wal -i ~/.config/i3/wallpaper.jpg
 
 
