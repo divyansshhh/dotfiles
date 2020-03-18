@@ -43,6 +43,7 @@ for_window [window_role = "^floating$"] floating enable
 
 #setting default floating mode for windows with title openglbs
 for_window [title = "openglbs$"] floating enable
+for_window [class = "Conky"] floating enable
 
 # kill focused window
 bindsym Mod4+Shift+q kill

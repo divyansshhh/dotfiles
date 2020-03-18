@@ -11,4 +11,5 @@ cp -r ~/.config/ranger ~/dotfiles
 cp -r ~/.config/rofi ~/dotfiles
 cp -r ~/.config/termite ~/dotfiles
 cp ~/.zshrc .
+cp -r ~/.config/conky ~/dotfiles/
 
