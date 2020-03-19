@@ -30,7 +30,6 @@ conky.config = {
     stippled_borders = 0,
     update_interval = 1.0,
     uppercase = false,
-    use_spacer = false,
     show_graph_scale = false,
     show_graph_range = false,
     text_buffer_size = 1024,

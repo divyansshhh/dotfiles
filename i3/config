@@ -250,8 +250,6 @@ bindsym Mod4+Tab exec --no-startup-id i3flip next
 bindsym Mod4+Shift+Tab exec --no-startup-id i3flip prev 
 
 #exec_always feh --bg-scale 
-exec_always compton
-exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 #exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper2.jpg
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -283,12 +281,18 @@ bindsym Mod4+Shift+X exec i3lock-fancy -p
 exec_always xinput set-prop 17 298 1
 exec_always xinput set-prop 16 298 1
 
+#starting compton
+exec_always compton
+
 
 exec_always dunst
 #exec_always nm-applet
 
 #Setting wallpaper
 exec_always wal -i ~/.config/i3/wallpaper.jpg
+
+#starting conky
+exec_always conky -c ~/.config/conky/config &
 
 
 #For swapping Caps and Escape on startup
