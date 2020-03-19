@@ -275,7 +275,7 @@ gaps outer 5
 exec i3-config-wizard
 
 exec_always xinput set-prop 12 280 1
-bindsym Mod4+Shift+X exec i3lock-fancy -p
+bindsym Mod4+Shift+X exec i3lock-fancy
 
 #enabling tap on touchpad (couldn't find a better way)
 exec_always xinput set-prop 17 298 1
