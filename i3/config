@@ -260,7 +260,7 @@ exec_always ~/dotfiles/polybar/launch.sh
 for_window [class="^.*"] border pixel 0
 
 gaps inner 7
-gaps outer 5
+gaps outer 7
 
 #smart_gaps off
 #######################################################################
@@ -289,7 +289,7 @@ exec_always dunst
 #exec_always nm-applet
 
 #Setting wallpaper
-exec_always wal -i ~/.config/i3/wallpaper.jpg
+exec_always wal -i ~/.config/i3/wall/wallpaper3.jpg
 
 #starting conky
 exec_always conky -c ~/.config/conky/config &

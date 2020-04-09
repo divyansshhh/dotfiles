@@ -28,6 +28,7 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 "" Plug install packages
 "*****************************************************************************
 Plug 'scrooloose/nerdtree'
+Plug 'dylanaraps/wal'
 Plug 'mxw/vim-prolog'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
@@ -164,7 +165,7 @@ set ruler
 set relativenumber
 
 let no_buffers_menu=1
-silent! colorscheme molokai
+silent! colorscheme wal
 
 set mousemodel=popup
 set t_Co=256

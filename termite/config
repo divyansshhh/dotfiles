@@ -77,7 +77,7 @@ background = rgba(63, 63, 63, 0.8)
 foreground      = #abb2bf
 foreground_bold = #abb2bf
 cursor          =
-background = rgba(0, 0, 0, 0.7)
+background = rgba(0, 0, 0, 1.0)
 
 # black
 color0  = #282c34

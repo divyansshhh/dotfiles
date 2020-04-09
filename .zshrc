@@ -119,7 +119,10 @@ EDITOR=nvim
 export PATH=$PATH:/opt/ibm/ILOG/CPLEX_Studio128/cplex/bin/x86-64_linux
 export LC_CTYPE=en_US.UTF-8
 export PATH="/home/divyansh/.gem/ruby/2.6.0/bin:$PATH"
+
+#import colorscheme from 'wal' for nvim colorscheme
 (cat ~/.cache/wal/sequences &)
+
 cd (){
     builtin cd $1 && ls 
 }
